@@ -1,0 +1,5 @@
+<html>
+<head>
+<title>MFSearch - Result Page</title>
+</head>
+<body bgcolor="#ffffff" link="#663300" vlink="#a83800" text="#000000" background="back.gif"  topmargin=0 leftmargin=0>
