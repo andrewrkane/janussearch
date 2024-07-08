@@ -1,0 +1,64 @@
+<html>
+<head>
+<title>Janus Search</title>
+</head>
+<body bgcolor="#ffffff" link="#663300" vlink="#a83800" text="#000000" background="back.gif"  topmargin=0 leftmargin=0>
+<center>
+  <h1>The Janus Intertextuality Search Engine</h1>
+  <h3>a research tool for</h3>
+  <h3><a href="http://web.wlu.ca/history/cnighman/index.html">The Electronic <i>Manipulus florum</i> Project</a>
+      &amp; <a href="http://web.wlu.ca/history/cnighman/LP/index.html">The Digital <i>Liber pharetrae</i> Project</a>
+      &amp; <a href="https://viridarium-project.wlu.ca/index.html">The Digital <i>Viridarium consolationis</i> Project</a></h3>
+</center>
+
+<table>
+<tr><td width=50></td>
+<td>
+	For single word searches, including the cited author or source, use the keyword search field.  For searches of texts having a minimum of 20 characters, enter or paste it into the Intertextuality Search field. For Intertextuality Searches, two types of report are available: the "Excerpt Report" displays only the corresponding passage from your text with the matching quotations from the <i>Manipulus florum</i> and/or the <i>Liber pharetrae</i> with the common text highlighted; the "Document Report" displays your entire search document with the common text highlighted. The default setting is for both reports, so users may choose to limit the report for their search to one or the other type. For an Intertextuality Report showing the quotations from one source that appear in the other sources see <a href="janus.cgi?queryfrom=mf"><i>Manipulus florum</i></a>,  <a href="janus.cgi?queryfrom=lp"><i>Liber pharetrae</i></a>, <a href="janus.cgi?queryfrom=vc"><i>Viridarium consolationis</i></a>.
+<br>
+</td>
+<td width=50></td></tr>
+</table>
+
+
+<br>
+<table align=center>
+<tr><td>
+<form name="Janus" action="janus.cgi" method="post">
+
+<center>
+Dataset:
+&nbsp;&nbsp;
+<input type="radio" name="dataset" value="+path:mf"/> <i>Manipulus florum</i> (mf)
+&nbsp;&nbsp;
+<input type="radio" name="dataset" value="+path:lp"/> <i>Liber pharetrae</i> (lp)
+&nbsp;&nbsp;
+<input type="radio" name="dataset" value="+path:vc"/> <i>Viridarium consolationis</i> (vc)
+&nbsp;&nbsp;
+<input type="radio" name="dataset" value="" checked/> All (mf + lp + vc)
+
+<p align=left>Keyword Search:<br>
+<input type="text" name="keywords" size=83/>
+
+<p align=left>Intertextuality Search:<br>
+
+<textarea name="query" COLS=80 ROWS=20></textarea> <br>
+<center>
+Output:&nbsp;&nbsp;&nbsp;
+<input type="radio" name="displayformat" value="excerpt"/> Excerpt Report &nbsp;&nbsp;&nbsp;
+<input type="radio" name="displayformat" value="document"/> Document Report &nbsp;&nbsp;&nbsp;
+<input type="radio" name="displayformat" value="both" checked/> Both <br>
+
+<br>
+<input type="submit" value="Search"/>
+<input type="reset" value="Reset"/>
+</center>
+</form>
+</td></tr>
+</table>
+
+<br><br>
+<p align=center>If you have any problems with this search engine, please contact arkane (at) uwaterloo.ca
+</body>
+</html>
+
