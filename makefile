@@ -36,3 +36,5 @@ index: data/*/*
 #sh combine-data.sh lp
 #sh combine-data.sh vc
 
+run-gui:
+	java -classpath lucene.jar:janus.jar janusengine.MFSearch
