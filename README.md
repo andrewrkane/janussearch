@@ -8,7 +8,7 @@ janus (intertextuality) search engine
 
 2. copy orignal data into cgi-bin/janussearch/_original/*.xml (and ensure NOT publicly visible)
 
-3. run cgi-bin/janussearch/make
+3. run make command inside cgi-bin/janussearch/ directory
 
 4. copy cgi-bin/janussearch/cgifiles/* to cgi-bin/ and setup permissions for those files
 
