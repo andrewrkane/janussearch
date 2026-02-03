@@ -10,6 +10,13 @@ janus (intertextuality) search engine
 
 3. run make command inside cgi-bin/janussearch/ directory
 
+    - create janus.jar from cgi-bin/janussearch/src/*
+    - extract individual items from original data files
+    - compile lucene index from extracted items
+
 4. copy cgi-bin/janussearch/cgifiles/* to cgi-bin/ and setup permissions for those files
+
+    - set up janus.html page with search html form
+    - set up janus.cgi to accept html form input, run search, return result page
 
 5. try running janus in browser via url loading cgi-bin/janus.html
